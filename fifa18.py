@@ -15,3 +15,15 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+
+# In[2]:
+
+
+directory = os.getcwd()
+
+
+# In[3]:
+
+
+os.chdir(directory + '//data')
+
