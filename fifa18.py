@@ -37,6 +37,8 @@ position = pd.read_csv('PlayerPlayingPositionData.csv', low_memory=False)
 complete_data = pd.read_csv("CompleteDataset.csv", low_memory=False)
 
 
+# **Make a copy of the data frame**
+
 # In[5]:
 
 
