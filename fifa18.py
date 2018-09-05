@@ -36,3 +36,12 @@ personal = pd.read_csv('PlayerPersonalData.csv', low_memory=False)
 position = pd.read_csv('PlayerPlayingPositionData.csv', low_memory=False)
 complete_data = pd.read_csv("CompleteDataset.csv", low_memory=False)
 
+
+# In[5]:
+
+
+attribute_df = attribute.copy()
+personal_df = personal.copy()
+position_df = position.copy()
+complete_data_df = complete_data.copy()
+
