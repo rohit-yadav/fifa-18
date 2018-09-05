@@ -27,3 +27,12 @@ directory = os.getcwd()
 
 os.chdir(directory + '//data')
 
+
+# In[4]:
+
+
+attribute = pd.read_csv('PlayerAttributeData.csv', low_memory=False)
+personal = pd.read_csv('PlayerPersonalData.csv', low_memory=False)
+position = pd.read_csv('PlayerPlayingPositionData.csv', low_memory=False)
+complete_data = pd.read_csv("CompleteDataset.csv", low_memory=False)
+
