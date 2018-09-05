@@ -49,3 +49,27 @@ complete_data_df = complete_data.copy()
 
 
 # ### Assess
+
+# In[6]:
+
+
+attribute_df.head()
+
+
+# In[7]:
+
+
+personal_df.head()
+
+
+# In[8]:
+
+
+position_df.head()
+
+
+# In[9]:
+
+
+complete_data_df.head()
+
