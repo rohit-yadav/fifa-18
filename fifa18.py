@@ -92,3 +92,27 @@ complete_data_df.head()
 # - Remove unmaned column
 # 
 # **Tidiness**
+
+# In[10]:
+
+
+attribute_df.info()
+
+
+# In[11]:
+
+
+personal_df.info()
+
+
+# In[12]:
+
+
+position_df.info()
+
+
+# In[13]:
+
+
+complete_data_df.info()
+

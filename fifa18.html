@@ -12646,6 +12646,301 @@ div#notebook {
 </div>
 </div>
 </div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">attribute_df</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 17981 entries, 0 to 17980
+Data columns (total 36 columns):
+Unnamed: 0            17981 non-null int64
+Acceleration          17981 non-null object
+Aggression            17981 non-null object
+Agility               17981 non-null object
+Balance               17981 non-null object
+Ball control          17981 non-null object
+Composure             17981 non-null object
+Crossing              17981 non-null object
+Curve                 17981 non-null object
+Dribbling             17981 non-null object
+Finishing             17981 non-null object
+Free kick accuracy    17981 non-null object
+GK diving             17981 non-null object
+GK handling           17981 non-null object
+GK kicking            17981 non-null object
+GK positioning        17981 non-null object
+GK reflexes           17981 non-null object
+Heading accuracy      17981 non-null object
+ID                    17981 non-null int64
+Interceptions         17981 non-null object
+Jumping               17981 non-null object
+Long passing          17981 non-null object
+Long shots            17981 non-null object
+Marking               17981 non-null object
+Penalties             17981 non-null object
+Positioning           17981 non-null object
+Reactions             17981 non-null object
+Short passing         17981 non-null object
+Shot power            17981 non-null object
+Sliding tackle        17981 non-null object
+Sprint speed          17981 non-null object
+Stamina               17981 non-null object
+Standing tackle       17981 non-null object
+Strength              17981 non-null object
+Vision                17981 non-null object
+Volleys               17981 non-null object
+dtypes: int64(2), object(34)
+memory usage: 4.9+ MB
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">personal_df</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 17981 entries, 0 to 17980
+Data columns (total 15 columns):
+Unnamed: 0      17981 non-null int64
+Unnamed: 0.1    17981 non-null int64
+ID              17981 non-null int64
+Name            17981 non-null object
+Age             17981 non-null int64
+Photo           17981 non-null object
+Nationality     17981 non-null object
+Flag            17981 non-null object
+Overall         17981 non-null int64
+Potential       17981 non-null int64
+Club            17733 non-null object
+Club Logo       17981 non-null object
+Value           17981 non-null object
+Wage            17981 non-null object
+Special         17981 non-null int64
+dtypes: int64(7), object(8)
+memory usage: 2.1+ MB
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">position_df</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 17981 entries, 0 to 17980
+Data columns (total 29 columns):
+Unnamed: 0             17981 non-null int64
+CAM                    15952 non-null float64
+CB                     15952 non-null float64
+CDM                    15952 non-null float64
+CF                     15952 non-null float64
+CM                     15952 non-null float64
+ID                     17981 non-null int64
+LAM                    15952 non-null float64
+LB                     15952 non-null float64
+LCB                    15952 non-null float64
+LCM                    15952 non-null float64
+LDM                    15952 non-null float64
+LF                     15952 non-null float64
+LM                     15952 non-null float64
+LS                     15952 non-null float64
+LW                     15952 non-null float64
+LWB                    15952 non-null float64
+Preferred Positions    17981 non-null object
+RAM                    15952 non-null float64
+RB                     15952 non-null float64
+RCB                    15952 non-null float64
+RCM                    15952 non-null float64
+RDM                    15952 non-null float64
+RF                     15952 non-null float64
+RM                     15952 non-null float64
+RS                     15952 non-null float64
+RW                     15952 non-null float64
+RWB                    15952 non-null float64
+ST                     15952 non-null float64
+dtypes: float64(26), int64(2), object(1)
+memory usage: 4.0+ MB
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">complete_data_df</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 17981 entries, 0 to 17980
+Data columns (total 75 columns):
+Unnamed: 0             17981 non-null int64
+Name                   17981 non-null object
+Age                    17981 non-null int64
+Photo                  17981 non-null object
+Nationality            17981 non-null object
+Flag                   17981 non-null object
+Overall                17981 non-null int64
+Potential              17981 non-null int64
+Club                   17733 non-null object
+Club Logo              17981 non-null object
+Value                  17981 non-null object
+Wage                   17981 non-null object
+Special                17981 non-null int64
+Acceleration           17981 non-null object
+Aggression             17981 non-null object
+Agility                17981 non-null object
+Balance                17981 non-null object
+Ball control           17981 non-null object
+Composure              17981 non-null object
+Crossing               17981 non-null object
+Curve                  17981 non-null object
+Dribbling              17981 non-null object
+Finishing              17981 non-null object
+Free kick accuracy     17981 non-null object
+GK diving              17981 non-null object
+GK handling            17981 non-null object
+GK kicking             17981 non-null object
+GK positioning         17981 non-null object
+GK reflexes            17981 non-null object
+Heading accuracy       17981 non-null object
+Interceptions          17981 non-null object
+Jumping                17981 non-null object
+Long passing           17981 non-null object
+Long shots             17981 non-null object
+Marking                17981 non-null object
+Penalties              17981 non-null object
+Positioning            17981 non-null object
+Reactions              17981 non-null object
+Short passing          17981 non-null object
+Shot power             17981 non-null object
+Sliding tackle         17981 non-null object
+Sprint speed           17981 non-null object
+Stamina                17981 non-null object
+Standing tackle        17981 non-null object
+Strength               17981 non-null object
+Vision                 17981 non-null object
+Volleys                17981 non-null object
+CAM                    15952 non-null float64
+CB                     15952 non-null float64
+CDM                    15952 non-null float64
+CF                     15952 non-null float64
+CM                     15952 non-null float64
+ID                     17981 non-null int64
+LAM                    15952 non-null float64
+LB                     15952 non-null float64
+LCB                    15952 non-null float64
+LCM                    15952 non-null float64
+LDM                    15952 non-null float64
+LF                     15952 non-null float64
+LM                     15952 non-null float64
+LS                     15952 non-null float64
+LW                     15952 non-null float64
+LWB                    15952 non-null float64
+Preferred Positions    17981 non-null object
+RAM                    15952 non-null float64
+RB                     15952 non-null float64
+RCB                    15952 non-null float64
+RCM                    15952 non-null float64
+RDM                    15952 non-null float64
+RF                     15952 non-null float64
+RM                     15952 non-null float64
+RS                     15952 non-null float64
+RW                     15952 non-null float64
+RWB                    15952 non-null float64
+ST                     15952 non-null float64
+dtypes: float64(26), int64(6), object(43)
+memory usage: 10.3+ MB
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
     </div>
   </div>
 </body>
