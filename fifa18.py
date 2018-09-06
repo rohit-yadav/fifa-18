@@ -73,3 +73,22 @@ position_df.head()
 
 complete_data_df.head()
 
+
+# **Quality**
+# 
+# ##### `attribute_df` table
+# - Remove unmaned column
+# 
+# 
+# ##### `personal_df` table
+# - Remove unmaned column
+# 
+# 
+# ##### `position_df` table
+# - Remove unmaned column
+# 
+# 
+# ##### `complete_data_df` table
+# - Remove unmaned column
+# 
+# **Tidiness**
