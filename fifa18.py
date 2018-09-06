@@ -78,18 +78,23 @@ complete_data_df.head()
 # 
 # ##### `attribute_df` table
 # - Remove unmaned column
-# 
+# - Numeric data types are string
+# - ID should be sting not integer
 # 
 # ##### `personal_df` table
 # - Remove unmaned column
-# 
+# - Numeric data type are string
+# - ID should be sting not integer
 # 
 # ##### `position_df` table
 # - Remove unmaned column
-# 
+# - Numeric data type are string
+# - ID should be sting not integer
 # 
 # ##### `complete_data_df` table
 # - Remove unmaned column
+# - Numeric data type are string
+# - ID should be sting not integer
 # 
 # **Tidiness**
 
