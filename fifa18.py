@@ -123,3 +123,46 @@ complete_data_df.info()
 
 
 # ### Cleaning
+
+# ##### `attribute_df` , `personal_df`, `position_df` : **Remove columns**
+# 
+# **Define:**
+# 
+# The unwanted columns should be removed
+# 
+# **Code:**
+
+# In[14]:
+
+
+attribute_df = attribute_df.drop(['Unnamed: 0'], axis=1)
+personal_df = personal_df.drop(['Unnamed: 0', 'Unnamed: 0.1'], axis=1)
+position_df = position_df.drop(['Unnamed: 0'], axis=1)
+complete_data_df = complete_data_df.drop(['Unnamed: 0'], axis=1)
+
+
+# **Test**
+
+# In[15]:
+
+
+attribute_df.head(2)
+
+
+# In[16]:
+
+
+personal_df.head(2)
+
+
+# In[17]:
+
+
+position_df.head(2)
+
+
+# In[18]:
+
+
+complete_data_df.head(2)
+
