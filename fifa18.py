@@ -166,3 +166,15 @@ position_df.head(2)
 
 complete_data_df.head(2)
 
+
+# In[19]:
+
+
+attribute_df[attribute_df.ID==213661]
+
+
+# In[20]:
+
+
+attribute_df.iloc[309]
+
