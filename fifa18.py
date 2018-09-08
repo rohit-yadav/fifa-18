@@ -80,6 +80,7 @@ complete_data_df.head()
 # - Remove unmaned column
 # - Numeric data types are string
 # - ID should be sting not integer
+# - Values have an additon numbers with them too. e.g. For `ID` `213661` has acceleration as `70+9`
 # 
 # ##### `personal_df` table
 # - Remove unmaned column
